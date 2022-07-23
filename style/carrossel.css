@@ -1,0 +1,262 @@
+.carrossel {
+  color: var(--laranja);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.carrossel_titulo {
+  background: var(--branco);
+  text-align: center;
+  padding: 1em 0 1em 0;
+  font-family: var(--fonte-principal);
+  text-transform: uppercase;
+}
+
+.swiper-slide {
+  width: 100%; 
+}
+
+.swiper-button-prev, .swiper-button-next {
+  display: none;
+}
+
+.swiper-pagination {
+  position: initial;
+ 
+}
+
+.card_descrição {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1em;
+
+}
+
+.card_botoes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.botoes {
+  display: flex;
+}
+
+.card {
+  background: var(--branco);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 1.5em;
+  padding: 2em;
+  font-family: var(--fonte-principal);
+}
+
+.descrição_titulo{
+color: var(--laranja);
+font-weight: 700;
+font-size: 16px;
+text-transform: uppercase;
+padding-right: 0.5em;
+}
+ 
+.descrição_titulo-livro {
+  color: var(--azul-escuro);
+  font-weight: 700;
+  font-size: 18px; 
+  text-transform: uppercase;
+  margin: 0.5em 0;
+  padding-right: 0.5em;
+}
+
+.descrição_texto {
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+  padding-right: 0.5em;
+}
+
+.botoes_itens {
+  margin: 0 0.5em;
+}
+
+.botoes_ancora {
+  background-color: var(--laranja);
+  color: var(--branco);
+  padding: 1em;
+  width: 40%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.card_descrição2 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1em; 
+}
+
+.card2 {
+  font-family: var(--fonte-principal);
+  background: var(--branco);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 1em;
+  padding: 2em;
+  
+}
+
+.descrição2{ 
+padding: 1px;
+}
+
+.card_botoes2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.botoes2 {
+  display: flex;
+}
+
+.descrição2_titulo {
+  color: var(--laranja);
+  font-weight: 700;
+  font-size: 16px;
+  padding: 0.5em 0;
+  
+}
+
+.descrição2_titulo-livro {
+  color: var(--azul-escuro);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.descrição2_texto {
+font-weight: 400;
+font-size: 14px;
+padding: 1em 0;
+padding-right: 2em;
+margin-right: auto;
+color: black;
+}
+
+.botoes2_item {
+  margin:0 0.5em;
+}
+
+.botoes2_ancora {
+  background-color: var(--laranja);
+  color: var(--branco);
+  padding: 1em;
+  align-items: left;
+  width: 40%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;  
+}
+
+@media screen and (min-width: 1024px){
+
+  .carrossel_titulo {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  .swiper-pagination {
+   margin: 1em 1em;
+  }
+
+  .swiper {
+    width: 50%;
+  }
+
+  .swiper-button-prev, .swiper-button-next {
+    display: block ;
+    top: 70%;
+    color: var(--azul-degrade);
+  }
+
+  .card {
+    width: 40%;
+    margin: 2em auto;
+  }
+
+  .card2 {
+    width: 40%;
+    margin: 2em auto;
+  }
+
+  .botoes_ancora {
+    margin-left: auto;
+    width: 25%;
+  }
+
+  .botoes2_ancora {
+    margin-left: auto;
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .carrosel_container {
+  display: flex;
+  margin: 3em;
+  }
+  .carrossel_titulo {
+    font-weight: 700;
+    font-size: 32px;
+    padding: 1em;
+  }
+
+  .descrição {
+    margin-right: 1em;
+  }
+
+  .descrição_titulo{
+    font-weight: 700;
+    font-size: 32px;
+    margin-right: 0.5em ;
+    padding: 0.5em 0.2em;
+  }
+
+  .descrição_titulo-livro, .descrição_texto {
+    margin-right: 0.5em ;
+    padding: 0 0.5em;
+  }
+
+  .swiper-button-prev, .swiper-button-next {
+    top: 50%;
+  }
+
+  .card {
+    width: 35%;
+  }
+  .card2 {
+    width: 35%;
+  }
+
+  .botoes_ancora {
+    width: 20%;
+  }
+
+  .botoes2_ancora {
+    width: 25%;
+  }
+
+  .descrição2 {
+    margin-right: 1em;
+  }
+  .descrição2_titulo{
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+  .descrição2_titulo-livro, .descrição2_texto {
+    margin-right: 1em;
+    padding: 0.5em 0;
+  }
+
+
+}
